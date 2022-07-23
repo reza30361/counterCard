@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.disabled-custom{
+    @apply disabled:bg-slate-50 disabled:hover:ring-0 disabled:cursor-not-allowed disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+}
+.btn{
+    @apply hover:ring-1 bg-white py-1 px-4 flex gap-x-1 rounded-lg transition-all duration-300 border hover:shadow-lg 
+}
+.main-card{
+    @apply flex flex-col items-center gap-y-12 border w-full p-4 rounded-2xl relative
+}
