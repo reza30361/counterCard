@@ -5,3 +5,5 @@ one card start to increase the number every second from the beginning ,other cou
 It has the ability to select the previous and next card
 The current card will stop and the selected counter card will start to
 increase number
+#### Demo link:
+[counterCard](https://counter-card.netlify.app/)
